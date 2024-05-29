@@ -19,9 +19,6 @@ const AllProductsPage = ({ type }) => {
   let dispatch = useDispatch();
   let notFound=useSelector(state=>state.products.notFound);
 
-  if(notFound){
-    return <p className="max-container mt-20 text-4xl font-montserrat font-light text-center">Not Found Anything</p>
-  }
 
   useEffect(() => {
     if (type == 'search') {
@@ -36,6 +33,10 @@ const AllProductsPage = ({ type }) => {
       }
     }
   }, [search,type,category]);
+
+  if(notFound){
+    return <p className="max-container mt-20 text-4xl font-montserrat font-light text-center">Not Found Anything</p>
+  }
 
   const nextPage = ()=>{
     if(currentPage!==lastIndex)

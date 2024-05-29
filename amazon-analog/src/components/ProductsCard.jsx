@@ -68,12 +68,12 @@ const ProductsCard = (props) => {
     }
 
     return (
-        <div className="p-6 rounded-3xl shadow-xl relative">
-            <button onClick={handleFavoritesClick} className={`right-4 absolute top-4 shadow-3xl p-3 rounded-full ${!clicked ? 'bg-white' : 'bg-primary-100' } `}>
+        <div className="pt-10 p-6 rounded-3xl shadow-xl relative w-[330px] flex flex-col">
+            <button onClick={handleFavoritesClick} className={`right-4 absolute top-10 shadow-3xl p-3 rounded-full ${!clicked ? 'bg-white' : 'bg-primary-100' } `}>
                 <img width={25} src={heart} alt={heart} />
             </button>
             {props.bestSeller && <span className="absolute bg-green-400 text-white font-palanquin px-3 rounded-xl">BESTSELLER</span>}
-            <div className="h-[289px]"><img width={300} className="h-full z-0" src={props.image} alt='card-image' /></div>
+            <div className="h-[200px] self-center"><img className="h-full z-0" src={props.image} alt='card-image' /></div>
             <h3 className="text-lg font-montserrat mt-6 mb-3">{truncateTitle(props.title)}</h3>
             <p className="text-xl font-bold font-montserrat mb-4">${props.price.toFixed(2)}</p>
             <Button handleAddToCart={handleAddToCart} innerText={"Add to Cart"} />

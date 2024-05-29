@@ -15,8 +15,8 @@ const AllProducts = () => {
 
   return (
     <section className="max-container mt-20 flex flex-col">
-        <h2 className="text-5xl font-montserrat mb-20"><span className="text-primary">All</span> Products</h2>
-        <ul className="flex justify-between flex-wrap">
+        <h2 className="text-5xl font-montserrat mb-10"><span className="text-primary">All</span> Products</h2>
+        <ul className="flex gap-10 flex-wrap justify-center">
             {allProducts && allProducts.map((item)=>{
                  return <li key={item.id}><ProductsCard {...item}/></li>
             })}

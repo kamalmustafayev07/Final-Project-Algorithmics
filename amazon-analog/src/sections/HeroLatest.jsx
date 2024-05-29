@@ -17,7 +17,7 @@ const HeroLatest = () => {
   let dispatch=useDispatch();
 
   useEffect(()=>{
-    dispatch(fetchContent('products/categories'));
+    dispatch(fetchContent('products/categories'))
   },[]);
 
 

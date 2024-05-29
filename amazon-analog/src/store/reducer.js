@@ -22,7 +22,6 @@ const productsSlice = createSlice({
         notFound: false,
         isLoading: null,
         error: false,
-        notClickedFavorites:false,
     },
     reducers: {
         addToFavorites: (state, action) => {
@@ -40,6 +39,20 @@ const productsSlice = createSlice({
             }
             state.cartProductsCount += 1;
         },
+        increaseCount:(state,action)=>{
+            const cartIndex = state.cart.findIndex((item) => item.id === action.payload.id);
+            state.cartProductsCount += 1;
+            state.cart[cartIndex].count++;
+        },
+        decreaseCount:(state,action)=>{
+            const cartIndex = state.cart.findIndex((item) => item.id === action.payload.id);
+            state.cart[cartIndex].count=state.cart[cartIndex].count-1;
+            state.cartProductsCount=state.cartProductsCount-1;
+        },
+        deleteFromCart:(state, action) => {
+            console.log('working!')
+            state.cart = state.cart.filter(item => item.id !== action.payload.id);
+        },
     },
     extraReducers: (builder) => {
         builder.addCase(fetchContent.pending, (state) => {
@@ -47,12 +60,14 @@ const productsSlice = createSlice({
         });
         builder.addCase(fetchContent.fulfilled, (state, action) => {
             const { data, urlInfo } = action.payload;
-            if (data.categories) {
-                state.categories = data.categories;
-            } else if (data.response) {
-                if (urlInfo.includes('bestsellers?')) {
+            if (data.response) {
+                state.notFound=false
+                if(data.categories){
+                    state.categories = data.categories;
+                }
+                else if (urlInfo.includes('bestsellers?')) {
                     state.bestsellers = data.products;
-                } else {
+                    }else {
                     state.products = data.products;
                 }
                 state.isLoading = false;
@@ -68,6 +83,6 @@ const productsSlice = createSlice({
 });
 
 
-export const { addToFavorites, deleteFromFavorites, addToCart } = productsSlice.actions;
+export const { addToFavorites, deleteFromFavorites, addToCart,increaseCount,decreaseCount,deleteFromCart} = productsSlice.actions;
 
 export default productsSlice.reducer;

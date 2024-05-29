@@ -15,8 +15,8 @@ const BestSellers = () => {
 
   return (
     <section className="max-container mt-20 flex flex-col">
-        <h2 className="text-5xl font-montserrat mb-20">Best<span className="text-primary"> Selling</span> Products</h2>
-        <ul className="flex justify-between flex-wrap">
+        <h2 className="text-5xl font-montserrat mb-10">Best<span className="text-primary"> Selling</span> Products</h2>
+        <ul className="flex gap-10 flex-wrap justify-center">
             {bestSelling && bestSelling.map((item)=>{
                  return <li key={item.id}><ProductsCard {...item}/></li>
             })}

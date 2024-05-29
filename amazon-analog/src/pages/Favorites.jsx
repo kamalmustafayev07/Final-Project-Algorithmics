@@ -9,7 +9,7 @@ const Favorites = () => {
   return (
     <section className='max-container mt-20'>
         <h1 className="text-3xl mb-5 font-montserrat">Favorites ({favorites.length} products)</h1>
-        <ul className='flex gap-4 flex-wrap'>
+        <ul className='flex gap-4 flex-wrap justify-center'>
         {favorites.map((item)=>(
             <li key={item.id}><ProductsCard {...item}/></li>
         ))}
