@@ -55,12 +55,12 @@ const AllProductsPage = ({ type }) => {
   }
 
   return (
-    <section className="max-container mt-20 flex gap-10">
-      <div className="h-[100vh] w-[360px] bg-black">
+    <section className="max-container mt-6 flex flex-col gap-5">
+      <div className="w-full bg-secondary p-10">
         Filter
       </div>
       <div className="w-full">
-      <ul className="flex flex-wrap gap-7">
+      <ul className="flex flex-wrap gap-7 justify-center">
         {records.map(item => (
           <li key={item.id}><ProductsCard {...item} /></li>
         ))}

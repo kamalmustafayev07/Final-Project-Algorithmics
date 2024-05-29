@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const AllProducts = () => {
   let dispatch=useDispatch();
   useEffect(()=>{
-    dispatch(fetchContent('products/?limit=4&offset=14'));
+    dispatch(fetchContent('products/?limit=3&offset=14'));
   },[]);
 
   const allProducts=useSelector((state)=>state.products.products);

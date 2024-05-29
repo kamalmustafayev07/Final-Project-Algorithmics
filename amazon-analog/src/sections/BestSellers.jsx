@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 const BestSellers = () => {
   let dispatch=useDispatch();
   useEffect(()=>{
-    dispatch(fetchContent('products/bestsellers?limit=4'));
+    dispatch(fetchContent('products/bestsellers?limit=3'));
   },[]);
 
   const bestSelling=useSelector((state)=>state.products.bestsellers);

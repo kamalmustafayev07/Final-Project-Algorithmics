@@ -22,7 +22,7 @@ const ProductsCard = (props) => {
 
     const truncateTitle = (text) => {
         if (text.length > 20) {
-            return text.substring(0, 25) + '...';
+            return text.substring(0, 20) + '...';
         } else {
             return text;
         }
@@ -68,7 +68,7 @@ const ProductsCard = (props) => {
     }
 
     return (
-        <div className="pt-10 p-6 rounded-3xl shadow-xl relative w-[330px] flex flex-col">
+        <div className="pt-10 p-6 rounded-3xl shadow-xl relative w-[400px] flex flex-col">
             <button onClick={handleFavoritesClick} className={`right-4 absolute top-10 shadow-3xl p-3 rounded-full ${!clicked ? 'bg-white' : 'bg-primary-100' } `}>
                 <img width={25} src={heart} alt={heart} />
             </button>
