@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .info-text{
+    @apply font-montserrat text-slate-700 text-lg;
+  }
+
+  .input{
+    @apply outline-none bg-secondary rounded-full px-10 py-4 flex-1 min-w-[500px] h-full;
+
+  }
+  
+  .counting{
+    @apply bg-primary rounded-full absolute top-0 right-0 w-[20px] h-[20px] flex items-center justify-center text-sm text-white;
+  }
+
+  .nav-element{
+    @apply bg-gray-500 px-5 py-3 text-white rounded-xl
+  }
+
+}

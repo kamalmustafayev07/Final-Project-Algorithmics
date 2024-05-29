@@ -1,0 +1,666 @@
+[
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 109.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.30,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      },
+      "bestSeller":true
+    },
+    {
+      "id": 4,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 5,
+      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "price": 695.00,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "category": "jewelry",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      },
+      "bestSeller":true
+    },
+    {
+      "id": 6,
+      "title": "Solid Gold Petite Micropave ",
+      "price": 168.00,
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "category": "jewelry",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 7,
+      "title": "White Gold Plated Princess",
+      "price": 9.99,
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "category": "jewelry",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3.0,
+        "count": 400
+      },
+      "bestSeller":false
+
+    },
+    {
+      "id": 8,
+      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "price": 10.99,
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "category": "jewelry",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 9,
+      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+      "price": 64.00,
+      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 10,
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "price": 109.00,
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 11,
+      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "price": 109.00,
+      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 12,
+      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "price": 114.00,
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 13,
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 599.00,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      },
+      "bestSeller":true
+    },
+    {
+      "id": 14,
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+      "price": 999.99,
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 15,
+      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "price": 56.99,
+      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 16,
+      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "price": 29.95,
+      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 17,
+      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "price": 39.99,
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      },
+      "bestSeller":false
+    },
+    {
+      "id": 18,
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      "price": 9.85,
+      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      },
+      "bestSeller":true
+    },
+    {
+      "id": 19,
+      "title": "Opna Women's Short Sleeve Moisture",
+      "price": 7.95,
+      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      },
+      "bestSeller":true
+    },
+    {
+      "id": 20,
+      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+      "price": 12.99,
+      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      },
+      "bestSeller":false
+    },
+    {
+        "id": 21,
+       "title": "Amazon Essentials Women's Stretch Pull-On Jegging",
+       "price": 29.40,
+       "description": "78% Cotton, 19% Polyester, 3% Elastane.YOUR EVERDAY JEGGING: Wear these jeggings just like your favorite pair of jeans with the extra comfort and ease. This slim and flattering silhouette allows for endless styling options.",
+       "category": "women's clothing",
+       "image": "https://m.media-amazon.com/images/I/815C+WHOQhL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.2,
+         "count": 145
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 22,
+       "title": "Dokotoo Womens Waffle Knit Shacket Jacket Casual Long Sleeve Button Down Shirts Dressy Blouses Tops",
+       "price": 32.99,
+       "description": "Shirts For Women / Waffle Knit tops / Womens Shacket Jacket / Button Down Shirts / Long Sleeves With Pocket / Lapel V Neck / Button Closure / Loose Fit / Boyfriend Style / Hip Length",
+       "category": "women's clothing",
+       "image": "https://m.media-amazon.com/images/I/71n5UddzzyL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.2,
+         "count": 145
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 23,
+       "title": "Hanes Womens Ecosmart V-Notch Crewneck Sweatshirt, Fleece Pullover Sweatshirt For Women",
+       "price": 11.25,
+       "description": "50% Cotton, 50% Polyester.Hanes EcoSmart mid-weight, year-round sweatshirt for women is made with cotton sourced from American farms.",
+       "category": "women's clothing",
+       "image": "https://m.media-amazon.com/images/I/716DeQPeSPL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.3,
+         "count": 145
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 24,
+       "title": "MEROKEETY Women's Summer Striped Short Sleeve T Shirt Dress Casual Tie Waist with Pockets",
+       "price": 35.99,
+       "description": "65% Rayon, 35% Polyester.This is a great comfortable dress, nice enough for business casual work and light enough the summer beach! Super cute and comfortable, flattering on any body shape. Belt waist, you can tie it in the front, side or back",
+       "category": "women's clothing",
+       "image": "https://m.media-amazon.com/images/I/71XZVoKb5TL._MCnd_AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.4,
+         "count": 149
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 25,
+       "title": "Hanes Men's Ecosmart Fleece Sweatshirt, Cotton-blend Pullover, Crewneck Sweatshirt for Men",
+       "price": 9.80,
+       "description": "80% Cotton, 20% Polyester.Hanes EcoSmart midweight sweatshirt is made with cotton sourced from American farms.Basic crewneck sweatshirt shaping for that versatile look you love.",
+       "category": "men's clothing",
+       "image": "https://m.media-amazon.com/images/I/71fyw1U54GL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.9,
+         "count": 145
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 26,
+       "title": "adidas Men's Essentials Warm-up Open Hem 3-stripes Tracksuit Pants",
+       "price": 32.52,
+       "description": "100% Polyester.adidas track pants with front pockets.Elastic waist with drawcord.Front pockets",
+       "category": "men's clothing",
+       "image": "https://m.media-amazon.com/images/I/61EazZSytpL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.5,
+         "count": 143
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 27,
+       "title": "Under Armour Men's Tech Golf Polo",
+       "price": 24.99,
+       "description": "Textured fabric that's soft, light & breathable.Material wicks sweat & dries really fast.3-button placket.Self-fabric collar",
+       "category": "men's clothing",
+       "image": "https://m.media-amazon.com/images/I/71uXpzMg5PL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.7,
+         "count": 123
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 28,
+       "title": "COOFANDY Men's Cotton Linen Henley Shirt Long Sleeve Hippie Casual Beach T Shirts",
+       "price": 29.99,
+       "description": " This linen shirts made from great fabric, lightweight, breathable and soft touch, do not shrink and fade, moisture-wicking.Casual henley neck shirts, stand collar, simple style, solid color, slim fit, long sleeve(Roll-up), button-down closure, rounded hem, featured button detail.",
+       "category": "men's clothing",
+       "image": "https://m.media-amazon.com/images/I/615Cby-DciL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.9,
+         "count": 145
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 29,
+       "title": "Amazon Essentials Men's Tech Stretch Tank T-Shirt",
+       "price": 12.30,
+       "description": " An ultra-light weight and breathable fabric, with a soft smooth sheen finish. Made with quick dry and moisture-wicking finishes, helping you stay comfortable and cool while you workout. This knit fabric has a 4 way gentle stretch for full flexibility during wear.",
+       "category": "men's clothing",
+       "image": "https://m.media-amazon.com/images/I/71Hx5x6EINS._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.9,
+         "count": 101
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 30,
+       "title": "Amazon Essentials Men's Slim-Fit Stretch Golf Short",
+       "price": 8.30,
+       "description": "98% Polyester, 2% Spandex.Fitted through hip and thigh, with tapered leg. Sits below the waist.Train in confidence with these lightweight golf pants featuring a moisture-wicking, gentle stretch and wrinkle-resistant fabric",
+       "category": "men's clothing",
+       "image": "https://m.media-amazon.com/images/I/81O-Jgsh03L._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.4,
+         "count": 143
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 31,
+       "title": "PlayStation®5 console (slim)",
+       "price": 431.99,
+       "description": "Includes DualSense Wireless Controller, 1TB SSD, Disc Drive, 2 Horizontal Stand Feet, HDMI Cable, AC power cord, USB cable, printed materials, ASTRO’s PLAYROOM (Pre-installed game)",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/51CXJ8Rl7UL._AC_UY218_.jpg",
+       "rating": {
+         "rate": 4.7,
+         "count": 32
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 32,
+       "title": "TCL 55-Inch Class S4 4K LED Smart TV with Fire TV (55S450F, 2023 Model), Dolby Vision HDR, Dolby Atmos, Alexa Built-in, Apple Airplay Compatibility, Streaming UHD Television, Black",
+       "price": 256.99,
+       "description": "4K Ultra HD Resolution – Experience incredible detail with 4X the resolution of 1080p Full HDTVs.Motion Rate 120 – Motion enhancement technology for improved motion clarity.HDR PRO (Dolby Vision, HDR10, and HLG) - Enjoy enhanced contrast, accurate colors and fine details utilizing all the most advanced HDR formats.",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/81ubqC5PfRL._AC_UY218_.jpg",
+       "rating": {
+         "rate": 4.4,
+         "count": 91
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 33,
+       "title": "HAPPRUN Projector, Native 1080P Bluetooth Projector with 100'' Screen, Portable Outdoor Movie Projector, Mini Projector for Home Bedroom, Compatible with Smartphone,HDMI,USB,AV,Fire Stick,PS5",
+       "price": 431.99,
+       "description": "The projector can deliver you HD movies with 1920*1080 native resolution, which is 4k supported. Equipped with excellent brightness and 10000:1 high dynamic contrast ratio, the hd projector provides sharper, brighter, and richer images! (Portable Projector 100'' Screen Included).",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY218_.jpg",
+       "rating": {
+         "rate": 4.3,
+         "count": 34
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 34,
+       "title": "ASUS ROG Strix G16 (2024) Gaming Laptop, 16” ROG Nebula Display 16:10 QHD 240Hz, NVIDIA® GeForce RTX™ 4070, Intel® Core™ i9-14900HX, 16GB DDR5-5600, 1TB PCIe Gen4 SSD, Wi-Fi 6E, Win 11, G614JIR-AS94",
+       "price": 1899.99,
+       "description": "Win more games with Windows 11, a 14th Gen Intel Core i9-14900HX processor, and an NVIDIA GeForce RTX 4070 Laptop GPU at 140W Max TGP.Multitask swiftly with 16GB of DDR5-5600MHz memory and 1TB of PCIe Gen4 SSD",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/71kOH3in8TL._AC_SR480%2C570_.jpg",
+       "rating": {
+         "rate": 4.3,
+         "count": 47
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 35,
+       "title": "Apple 2022 MacBook Air Laptop with M2 chip: 13.6-inch Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone and iPad; Midnight",
+       "price": 840.51,
+       "description": "The redesigned MacBook Air is more portable than ever and weighs just 2.7 pounds. It’s the incredibly capable laptop that lets you work, play or create just about anything — anywhere.",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/719C6bJv8jL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.8,
+         "count": 31
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 36,
+       "title": "Samsung Electronics Galaxy Tab S7 Wi-Fi, Mystic Black - 256 GB",
+       "price": 879.99,
+       "description": "PC PERFORMANCE. TABLET PORTABILITY: Transform your tablet into a PC experience with DeX mode and the optional keyboard(1) with expanded trackpad. (1)Sold separately.",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/61FqavUlvFL._AC_UY218_.jpg",
+       "rating": {
+         "rate": 4.8,
+         "count": 98
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 37,
+       "title": "Marshall Electronics CV620 HD 3G-SDI/HDMI 20x PTZ Camera, White",
+       "price": 1289.09,
+       "description": "",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/51yAUB3r9aL._AC_UY218_.jpg",
+       "rating": {
+         "rate": 5.0,
+         "count": 4
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 38,
+       "title": "Bose QuietComfort Ultra Wireless Noise Cancelling Headphones with Spatial Audio, Over-the-Ear Headphones with Mic, Up to 24 Hours of Battery Life, Sandstone - Limited Edition Color",
+       "price": 379.00,
+       "description": "Bose QuietComfort Ultra Headphones with spatial audio give you an immersive experience that makes music feel more real; CustomTune technology offeres personalized sound, shaped to you.These noise cancelling headphones feature Quiet Mode, Aware Mode and Immersion Mode, which combines full noise cancellation and Bose Immersive Audio",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/61d7SqbK2UL._AC_UY218_.jpg",
+       "rating": {
+         "rate": 4.2,
+         "count": 32
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 39,
+       "title": "Sony Alpha 1 Full-frame Interchangeable Lens Mirrorless Camera",
+       "price": 5200.00,
+       "description": "50.1MP full-frame stacked Exmor RS CMOS sensor w/ integral memory.8x more powerful, next generation BIONZ XR image processing engine.World’s first anti-flicker mechanical and electronic shutter.World’s first 240 fps refresh rate, 9.44M dot 0.64” QXGA OLED EVF",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/61nYvultqaS._AC_UY218_.jpg",
+       "rating": {
+         "rate": 4.4,
+         "count": 10
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 40,
+       "title": "Razer Cobra Pro Wireless Gaming Mouse: 10 Customizable Controls - Chroma RGB Lighting - 30K Optical Sensor - Gen-3 Optical Switches - 2.4GHz, Bluetooth & USB Type C - Up to 170 Hr Battery - White",
+       "price": 129.99,
+       "description": "Provides flawless tracking performance on a wider variety of surfaces, including glass—supported by intelligent functions, it enhances aim and control.Enjoy ultra-responsive gaming with speeds faster than other wireless tech",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/61UIHG3egGL._AC_UY218_.jpg",
+       "rating": {
+         "rate": 4.5,
+         "count": 189
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 41,
+       "title": "Amazon Essentials womens Sterling Silver Cubic Zirconia Halo Pendant Necklace and Stud Earrings Jewelry Set (previously Amazon Collection)",
+       "price": 28.50,
+       "description": "This product was previously sold as Amazon Collection and now as Amazon Essentials.Rhodium plating added to enhance design and appearance; available in red garnet, blue topaz and amethyst",
+       "category": "jewelry",
+       "image": "https://m.media-amazon.com/images/I/81wrnVlO-AL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.5,
+         "count": 148
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 42,
+       "title": "Kendra Scott Elisa Pendant Necklace for Women, Fashion Jewelry, 14k Gold-Plated",
+       "price": 44.00,
+       "description": "Delicate and Dainty: If you love to layer or gravitate towards simpler styles, this piece is perfect for you. You won’t get tired of the Elisa Pendant Necklace, because it was made with everyday wear in mind.",
+       "category":"jewelry",
+       "image": "https://m.media-amazon.com/images/I/61hYcP9-yhL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.6,
+         "count": 145
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 43,
+       "title": "Swarovski Infinity Heart Jewelry Collection, Necklaces and Bracelets, Rose Gold & Rhodium Tone Finish, Clear Crystals",
+       "price": 106.00,
+       "description": "Simple and elegant: This mixed metal plated necklace combines the precision and quality of sparkling Swarovski crystals with a timeless necklace design, for a touch of glamour for every occasion.Minimalist and unique: The Infinity Heart necklace features a dainty heart entwined with a delicate infinity sign and paired with a touch of sparkling clear crystal pavé on a delicate chain",
+       "category": "jewelry",
+       "image": "https://m.media-amazon.com/images/I/71Ppuph2B3L._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.6,
+         "count": 20
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 44,
+       "title": "Nine West Women's Boxed Necklace/Pierced Earrings Set, Silver/Blue, One Size",
+       "price": 20.00,
+       "description": "Necklace: L-16 in x W-0.4 in x H-0.8 in, Earrings: L-0.8 in x W-0.4 in x H-0.4 in.Boxed Jewelry Set - Necklace and Earrings - Classics",
+       "category": "jewelry",
+       "image": "https://m.media-amazon.com/images/I/61J8i5pJi6L._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.5,
+         "count": 11
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 45,
+       "title": "Kendra Scott Elle Drop Earrings for Women",
+       "price": 70.00,
+       "description": "A style made for whatever’s on your schedule that day. Pair it with your favorite cocktail dress or a casual pair of jeans – either way, these Elle Drop Earrings are sure to shine.This style is made with a material unique to Kendra Scott. We love finding new ways to implement genuine stones, and the Elle Drop Earrings are proof of that.",
+       "category": "jewelry",
+       "image": "https://m.media-amazon.com/images/I/71MmVA13raL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.7,
+         "count": 29
+       },
+       "bestSeller":true
+     },
+     {
+        "id": 46,
+       "title": "Flower Cluster Stone Drop Earrings",
+       "price": 21.80,
+       "description": "These glistening drop earrings feature iridescent emerald cut stone gem adorned with playful flower and mixed stone cluster. Hand crafted from polished rose gold-tone metal, glass and epoxy.Wonderful gift for all year-round especially as Birthday Gifts, Bridesmaid's Gifts, Anniversary Gifts, Mother's Day Gifts, Wedding Gifts, Christmas Gifts or any other holiday gifts. Perfect statement piece for any ensemble!",
+       "category": "jewelry",
+       "image": "https://m.media-amazon.com/images/I/71qlbLY8jNL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.5,
+         "count": 43
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 47,
+       "title": "Michael Kors Gold-Tone Bracelet for Women; Bracelets; Jewelry for Women",
+       "price": 63.26,
+       "description": "The Michael Kors jewelry collection is designed for timeless appeal. Crafted from hypoallergenic materials like stainless steel and brass with sparkling accents, rich in detail with enduring quality.",
+       "category": "jewelry",
+       "image": "https://m.media-amazon.com/images/I/61ohJ5TSrEL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.4,
+         "count": 55
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 48,
+       "title": "Betsey Johnson Womens Mixed Charm Earrings",
+       "price": 27.44,
+       "description": "Vibrant red huggie adorned featuring dangling cowboy boot charm adorned with stone heart gem. Earrings have a click-in closure. Made from metal, plastic and glass.",
+       "category": "jewelry",
+       "image": "https://m.media-amazon.com/images/I/710JpEwuACL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.4,
+         "count": 67
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 49,
+       "title": "Amazon Collection Platinum or Gold Plated Sterling Silver Round 3-Stone Ring made with Infinite Elements Cubic Zirconia",
+       "price": 20.07,
+       "description": "This timeless 3-stone ring features 5.5mm and 3.5mm (1 carat) round cut Infinite Elements Cubic Zirconia in prong settings on a 1.95mm wide band; perfect on its own or wear with your favorite Amazon Collection jewelry.",
+       "category": "jewelry",
+       "image": "https://m.media-amazon.com/images/I/612DyTHZxfL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.4,
+         "count": 12
+       },
+       "bestSeller":false
+     },
+     {
+        "id": 50,
+       "title": "8.51 ct Ladies Round Cut Diamond Tennis Bracelet in (Color G Clarity SI-1) in 14 Kt Yellow Gold",
+       "price": 11999.00,
+       "description": "Diamond Tennis Bracelet.Best Gift.Free Appraisal.The Best Deal",
+       "category": "jewelry",
+       "image": "https://m.media-amazon.com/images/I/6195Jhhc6fL._AC_UL320_.jpg",
+       "rating": {
+         "rate": 4.0,
+         "count": 1
+       },
+       "bestSeller":false
+     },
+     {
+      "id": 51,
+     "title": "iPhone 15 Pro 128 GB",
+     "price": 999.00,
+     "description": "Brand new iPhone 15 Pro",
+     "category": "electronics",
+     "image": "https://amazonredesign.vercel.app/assets/iphone-15-pro-128gb-CBEnhckP.png",
+     "rating": {
+       "rate": 4.9,
+       "count": 19
+     },
+     "bestSeller":true
+   }
+]
