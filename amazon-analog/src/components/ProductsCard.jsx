@@ -70,18 +70,17 @@ const ProductsCard = (props) => {
     }
 
     return (
-        <div className="pt-10 p-6 rounded-3xl shadow-xl relative w-[400px] flex flex-col">
+        <div className="pt-10 p-6 rounded-3xl shadow-xl relative w-[400px] max-tablet:w-[350px] max-phone:w-[300px] flex flex-col">
             <button onClick={handleFavoritesClick} className={`right-4 absolute top-10 shadow-3xl p-3 rounded-full active:scale-75 transition ${!clicked ? 'bg-white' : 'bg-primary-100' } `}>
-                <img width={25} src={heart} alt={heart} />
+                <img className="w-[25px] max-tablet:w-[20px]" src={heart} alt={heart} />
             </button>
-            {props.bestSeller && <span className="absolute bg-green-400 text-white font-palanquin px-3 rounded-xl">BESTSELLER</span>}
+            {props.bestSeller && <span className="absolute bg-green-400 text-white font-palanquin px-3 rounded-xl max-tablet:text-sm">BESTSELLER</span>}
             <Link className="flex flex-col" to={`/products/search/${props.id}`}>
-            <div className="h-[200px] self-center"><img className="h-full z-0" src={props.image} alt='card-image' /></div>
-            <h2 className="text-black mt-6 font-bold font-palanquin">{props.brand}</h2>
-           
-            <h3 className="text-lg font-montserrat mb-3 hover:text-primary">{truncateTitle(props.title)}</h3>
+            <div className="h-[200px] self-center max-tablet:h-[170px] max-phone:h-[150px] max-sm-phone:h-[130px]"><img className="h-full z-0" src={props.image} alt='card-image' /></div>
+            <h2 className="text-black mt-6 font-bold font-palanquin max-tablet:text-sm max-tablet:mt-3">{props.brand}</h2>
+            <h3 className="text-lg font-montserrat mb-3 hover:text-primary max-tablet:text-base max-tablet:mb-0 max-phone:text-sm">{truncateTitle(props.title)}</h3>
             <div className="font-montserrat flex gap-2"><StarRating rating={props.rating.rate}/><span className="self-center">({props.rating.rate})</span></div>
-            <p className="text-xl font-bold font-montserrat mb-4">${props.price.toFixed(2)}</p>
+            <p className="text-xl font-bold font-montserrat mb-4 max-tablet:text-lg">${props.price.toFixed(2)}</p>
             </Link>
             <Button handleAddToCart={handleAddToCart} innerText={"Add to Cart"} />
         </div>

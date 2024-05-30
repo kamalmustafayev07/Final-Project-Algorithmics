@@ -58,7 +58,7 @@ const AllProductsPage = ({ type }) => {
   };
 
   return (
-    <section className="max-container mt-6 flex flex-col gap-5">
+    <section className="max-container mt-6 flex flex-col gap-5 adaptive">
       <div className="w-full">
         <ul className="flex flex-wrap gap-7 justify-center">
           {records.map(item => (
@@ -66,20 +66,20 @@ const AllProductsPage = ({ type }) => {
           ))}
         </ul>
         <nav className="mt-10 w-full">
-          <ul className="flex gap-5 justify-center w-full">
+          <ul className="flex gap-5 justify-center w-full max-phone:gap-1 items-center">
             {currentPage !== 1 && (
               <li>
-                <a className="nav-element" href="#" onClick={prevPage}>Previous</a>
+                <a className="nav-element max-phone:text-xs" href="#" onClick={prevPage}>Previous</a>
               </li>
             )}
             {numbers.map((number, index) => (
-              <li key={index}>
-                <a href="#" className="nav-element" onClick={() => changeCurrentPage(number)}>{number}</a>
+              <li key={index} className="max-phone:text-xs">
+                <a href="#" className="nav-element max-phone:text-xs" onClick={() => changeCurrentPage(number)}>{number}</a>
               </li>
             ))}
             {currentPage !== npages && (
-              <li>
-                <a href='#' className='nav-element' onClick={nextPage}>Next</a>
+              <li className="max-phone:text-xs">
+                <a href='#' className="nav-element max-phone:text-xs" onClick={nextPage}>Next</a>
               </li>
             )}
           </ul>

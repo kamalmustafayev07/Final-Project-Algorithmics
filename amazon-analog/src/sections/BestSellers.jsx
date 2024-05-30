@@ -14,8 +14,8 @@ const BestSellers = () => {
   const bestSelling=useSelector((state)=>state.products.bestsellers);
 
   return (
-    <section className="max-container mt-20 flex flex-col">
-        <h2 className="text-5xl font-montserrat mb-10">Best<span className="text-primary"> Selling</span> Products</h2>
+    <section className="max-container mt-20 flex flex-col adaptive">
+        <h2 className="text-5xl font-montserrat mb-10 max-wide:text-3xl max-tablet:text-2xl"><span className="text-primary">Best</span> Selling</h2>
         <ul className="flex gap-10 flex-wrap justify-center">
             {bestSelling && bestSelling.map((item)=>(
                  <li key={item.id}><ProductsCard {...item}/></li>

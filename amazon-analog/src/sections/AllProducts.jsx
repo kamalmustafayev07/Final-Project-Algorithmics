@@ -14,9 +14,9 @@ const AllProducts = () => {
   const allProducts=useSelector((state)=>state.products.products);
 
   return (
-    <section className="max-container mt-20 flex flex-col">
-        <h2 className="text-5xl font-montserrat mb-10"><span className="text-primary">All</span> Products</h2>
-        <ul className="flex gap-10 flex-wrap justify-center">
+    <section className="max-container mt-20 flex flex-col max-wide:w-full adaptive">
+        <h2 className="text-5xl font-montserrat mb-10 max-wide:text-3xl max-tablet:text-2xl"><span className="text-primary">All</span> Products</h2>
+        <ul className="flex gap-10 flex-wrap justify-center max-tablet:gap-5 max-phone:gap-3">
             {Array.isArray(allProducts) && allProducts.length !== 0 && allProducts.map((item)=>(
                 <li key={item.id}><ProductsCard {...item}/></li>
             ))}

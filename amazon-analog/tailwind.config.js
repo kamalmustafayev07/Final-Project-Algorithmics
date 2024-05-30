@@ -21,6 +21,14 @@ export default {
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
+      screens: {
+        "wide": "1440px",
+        "tablet":"900px",
+        "small-tablet":"630px",
+        "phone":"560px",
+        "sm-phone":"470px",
+        "xs-phone":"420px",
+      }
     },
   },
   plugins: [],

@@ -22,7 +22,7 @@ const HeroLatest = () => {
 
 
   return (
-    <section className="max-container pt-6">
+    <section className="max-container pt-6 max-wide:w-full max-wide:px-8 max-phone:px-6 max-sm-phone:px-4">
       <Swiper
         modules={[Autoplay, A11y, Pagination, Navigation]}
         spaceBetween={30}
@@ -41,16 +41,16 @@ const HeroLatest = () => {
       >
         {categoriesSlider.map((item, index) => (
           <SwiperSlide key={item.label}>
-            <div className={`flex ${index > 1 && 'flex-row-reverse'} h-[500px] items-center justify-between gap-4`}>
-              <div className="w-1/2 flex flex-col gap-6">
-                <h2 className=" text-5xl font-montserrat">{item.label}</h2>
-                <p className="info-text">{item.subtext}</p>
-                <div className="w-[280px]">
+            <div className={`flex ${index > 1 && 'flex-row-reverse'} h-[500px] items-center gap-20 justify-center max-wide:h-full max-phone:gap-10 max-sm-phone:gap-8`}>
+              <div className="w-[50%] flex flex-col gap-6 max-tablet:gap-3 max-phone:gap-2 max-tablet:w-[55%] max-sm-phone:w-[33%]">
+                <h2 className=" text-5xl font-montserrat max-wide:text-3xl max-tablet:text-xl max-md:text-lg max-phone:text-sm max-sm-phone:text-[10px] max-sm-phone:leading-3">{item.label}</h2>
+                <p className="info-text max-sm-phone:text-[7px] ">{item.subtext}</p>
+                <div className="w-[280px] max-wide:w-[180px] max-tablet:w-[120px] max-sm-phone:w-[80px]">
                   <Link to={`/products/category/${categories[index]}`}><Button innerText={"Shop Now"} /></Link>
                 </div>
               </div>
-              <div className="h-full">
-                <SliderImage indexOfImage={index} imgUrl={item.imgURL} />
+              <div className="h-full flex">
+                <img className="h-[400px] self-center max-tablet:h-[300px] max-md:h-[250px] max-sm:h-[200px] max-phone:h-[160px] max-sm-phone:h-[130px]" src={item.imgURL} alt="slider-image" />
               </div>
             </div>
           </SwiperSlide>

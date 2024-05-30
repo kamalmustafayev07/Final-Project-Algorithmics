@@ -19,11 +19,11 @@
   }
 
   .info-text{
-    @apply font-montserrat text-slate-700 text-lg;
+    @apply font-montserrat leading-8 text-slate-700 text-lg max-wide:text-base max-tablet:text-sm max-sm:text-[10px] max-tablet:leading-4 max-phone:leading-4 max-sm-phone:leading-3;
   }
 
   .input{
-    @apply outline-none bg-secondary rounded-full px-10 py-4 flex-1 min-w-[500px] h-full;
+    @apply outline-none bg-secondary rounded-full px-10 py-4 flex-1 min-w-[500px] h-full max-tablet:px-5 max-tablet:py-2 max-tablet:text-xs;
 
   }
   
@@ -32,7 +32,11 @@
   }
 
   .nav-element{
-    @apply bg-gray-500 px-5 py-3 text-white rounded-xl
+    @apply bg-gray-500 px-5 py-3 text-white rounded-xl max-sm-phone:px-3 max-sm-phone:py-2;
+  }
+
+  .adaptive{
+    @apply max-wide:w-full max-wide:px-8 max-tablet:px-6;
   }
 
 }
