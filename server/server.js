@@ -30,8 +30,9 @@ fs.readFile('./products.json', 'utf8', (err, data) => {
             let products = JSON.parse(data);
             let searchingTitle=req.params.search;
             products=products.filter((item)=>item.title.includes(searchingTitle));
-            if(products.length!=0)
-            res.json({ products: products, response: true });
+            if(products.length!=0){
+                res.json({ products: products, response: true });
+            }
             else{
                 res.json({message:'There is no product with that name',response:false});
             }
@@ -52,6 +53,7 @@ fs.readFile('./products.json', 'utf8', (err, data) => {
             let categories=["men's clothing","electronics", "women's clothing", "jewelry"];
             res.json({categories:categories,response:true});
         });
+
 
         app.get('/products/category/:category', (req, res) => {
             let products = JSON.parse(data);

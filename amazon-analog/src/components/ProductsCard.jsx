@@ -3,6 +3,8 @@ import { heart } from "../assets/icons";
 import { addToFavorites, deleteFromFavorites,addToCart } from "../store/reducer";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
+import StarRating from "./StarRating";
+import { Link } from "react-router-dom";
 
 const ProductsCard = (props) => {
     let favorites=useSelector(state=>state.products.favorites);
@@ -12,7 +14,6 @@ const ProductsCard = (props) => {
     useEffect(()=>{
         if(!(favorites.findIndex(item=>item.id==props.id)<0))
             {
-                console.log('working!');
                 setClicked(true);
             }
             else{
@@ -54,6 +55,7 @@ const ProductsCard = (props) => {
     const handleAddToCart=()=>{
         dispatch(addToCart({
             id: props.id,
+            brank:props.brand,
             title: props.title,
             price: props.price,
             description: props.description,
@@ -69,16 +71,21 @@ const ProductsCard = (props) => {
 
     return (
         <div className="pt-10 p-6 rounded-3xl shadow-xl relative w-[400px] flex flex-col">
-            <button onClick={handleFavoritesClick} className={`right-4 absolute top-10 shadow-3xl p-3 rounded-full ${!clicked ? 'bg-white' : 'bg-primary-100' } `}>
+            <button onClick={handleFavoritesClick} className={`right-4 absolute top-10 shadow-3xl p-3 rounded-full active:scale-75 transition ${!clicked ? 'bg-white' : 'bg-primary-100' } `}>
                 <img width={25} src={heart} alt={heart} />
             </button>
             {props.bestSeller && <span className="absolute bg-green-400 text-white font-palanquin px-3 rounded-xl">BESTSELLER</span>}
+            <Link className="flex flex-col" to={`/products/search/${props.id}`}>
             <div className="h-[200px] self-center"><img className="h-full z-0" src={props.image} alt='card-image' /></div>
-            <h3 className="text-lg font-montserrat mt-6 mb-3">{truncateTitle(props.title)}</h3>
+            <h2 className="text-black mt-6 font-bold font-palanquin">{props.brand}</h2>
+           
+            <h3 className="text-lg font-montserrat mb-3 hover:text-primary">{truncateTitle(props.title)}</h3>
+            <div className="font-montserrat flex gap-2"><StarRating rating={props.rating.rate}/><span className="self-center">({props.rating.rate})</span></div>
             <p className="text-xl font-bold font-montserrat mb-4">${props.price.toFixed(2)}</p>
+            </Link>
             <Button handleAddToCart={handleAddToCart} innerText={"Add to Cart"} />
         </div>
     )
-}
+}   
 
 export default ProductsCard;

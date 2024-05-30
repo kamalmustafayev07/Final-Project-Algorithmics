@@ -17,9 +17,9 @@ const BestSellers = () => {
     <section className="max-container mt-20 flex flex-col">
         <h2 className="text-5xl font-montserrat mb-10">Best<span className="text-primary"> Selling</span> Products</h2>
         <ul className="flex gap-10 flex-wrap justify-center">
-            {bestSelling && bestSelling.map((item)=>{
-                 return <li key={item.id}><ProductsCard {...item}/></li>
-            })}
+            {bestSelling && bestSelling.map((item)=>(
+                 <li key={item.id}><ProductsCard {...item}/></li>
+            ))}
         </ul>
         <div className="w-[px] self-end mt-5">
             <Link to={`/products/bestsellers`}><Button innerText={"Watch the bestsellers"} type='Transparent'/></Link>

@@ -15,6 +15,7 @@ const productsSlice = createSlice({
     initialState: {
         products: [],
         bestsellers: [],
+        brands:[],
         favorites: [],
         cart: [],
         cartProductsCount: 0,
@@ -50,8 +51,9 @@ const productsSlice = createSlice({
             state.cartProductsCount=state.cartProductsCount-1;
         },
         deleteFromCart:(state, action) => {
-            console.log('working!')
-            state.cart = state.cart.filter(item => item.id !== action.payload.id);
+            let findedIndex=state.cart.findIndex((item)=>item.id==action.payload.id);
+            state.cartProductsCount=state.cartProductsCount-state.cart[findedIndex].count;
+            state.cart.splice(findedIndex,1);
         },
     },
     extraReducers: (builder) => {
@@ -67,7 +69,9 @@ const productsSlice = createSlice({
                 }
                 else if (urlInfo.includes('bestsellers?')) {
                     state.bestsellers = data.products;
-                    }else {
+                }else if(urlInfo.includes('brands')){
+                    state.brands=data.brands;
+                }else{
                     state.products = data.products;
                 }
                 state.isLoading = false;

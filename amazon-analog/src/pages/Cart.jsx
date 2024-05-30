@@ -12,13 +12,13 @@ const Cart = () => {
   return (
     <section className='max-container mt-20 shadow-xl p-10 rounded-3xl'>
         <h1 className="text-3xl mb-10 font-montserrat">Cart ({cartsCount} products)</h1>
-        <div className='flex gap-40'>
-         <ul className='flex flex-wrap'>
+        <div className='flex justify-between'>
+         <ul className='flex flex-wrap w-[min-content] gap-3'>
             {cart.map((item,index)=>(
             <li className="w-[700px]" key={item.id}><CartCard {...item} index={index}/></li>
             ))}
         </ul>
-        <div className='h-full shadow-xl w-full p-10 rounded-3xl font-montserrat' >
+        {cartsCount!=0 && <div className='h-full shadow-xl p-10 rounded-3xl font-montserrat' >
             <h2 className='text-2xl font-montserrat mb-5'>Total Order</h2>
             <div className='flex flex-col gap-3 pb-8 border-b mb-5'>
             <p className='flex justify-between'><span>Total Goods</span><span>${totalGoods}</span></p>
@@ -26,7 +26,8 @@ const Cart = () => {
             <p className='text-xs font-palanquin '>Shipping cost can be different due to different sellers and numbers of orders</p>
             </div>
             <p className='font-bold text-2xl'>Total: ${totalGoods}</p>
-        </div>
+        </div>}
+        
         </div>
        
         <div className='mt-5'>
